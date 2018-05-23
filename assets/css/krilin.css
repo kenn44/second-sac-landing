@@ -8,12 +8,6 @@
     /* width: 50%; */
 }
 
-/* Replaced by vcentered */
-/* .is-vertical-center {
-    display: flex;
-    align-items: center;
-} */
-
 /* Custom sections styles */
 #first {
     background-image: url("../img/first.jpg");
