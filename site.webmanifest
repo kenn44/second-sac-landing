@@ -1,0 +1,14 @@
+{
+    "name": "SAC-TIC",
+    "short_name": "SAC-TIC",
+    "icons": [
+        {
+            "src": "assets/favicon/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#297fca",
+    "background_color": "#297fca",
+    "display": "standalone"
+}
