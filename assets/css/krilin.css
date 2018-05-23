@@ -1,4 +1,4 @@
-/* My custom CSS */
+/* My custom style */
 
 /* Horizontal center for images */
 .center {
@@ -8,7 +8,37 @@
     /* width: 50%; */
 }
 
+/* Replaced by vcentered */
 /* .is-vertical-center {
     display: flex;
     align-items: center;
 } */
+
+/* Custom sections styles */
+#first {
+    background-image: url("../img/first.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#alerte {
+    background-color: #F25F5C;
+}
+
+#conseil {
+    background-color: #297FCA;
+}
+
+#pertubation {
+    background-color: #39CC76;
+}
+
+#last {
+    background-image: url("../img/last.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
