@@ -113,7 +113,29 @@
                     <p class="is-size-7 has-text-centered has-text-white-bis">*Bientôt disponible sur iOS</p>
                     <p class="is-size-4 has-text-centered has-text-white-bis">Vous pouvez aussi vous abonnez aux alertes par SMS <br> en envoyant le code de votre quartier au <span style="color: #297FCA">5577</span></p>
                     <br>
-                    <p class="is-size-5 has-text-centered has-text-white-bis">Consulter les codes quartiers</p>
+                    <div id="open-modal" class="buttons has-addons is-centered">
+                        <span class="button is-size-5 is-primary is-inverted is-outlined">Consulter les codes quartiers</span>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal">
+                        <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                                <p class="modal-card-title">Code quartiers</p>
+                                <button class="delete" aria-label="close"></button>
+                            </header>
+                            <section class="modal-card-body">
+                                <ul>
+                                    <li>Agla - AGL</li>
+                                    <li>Godomey - GDM</li>
+                                    <li>Xwlacodji - XWL</li>
+                                    <li>Togbohoue - TGH</li>
+                                    <li>Allegleta - ALL</li>
+                                    <li>Zounta - ZNT</li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
                 </div>
                 
             </div>
@@ -147,6 +169,8 @@
             </p>
         </div>
     </footer>
+
+    <script async src="assets/js/vegeta.js"></script>
     
 </body>
 </html>
