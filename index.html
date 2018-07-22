@@ -25,7 +25,6 @@
     <meta property="og:url" content="https://sac-tic.tk/" />
 
     <title>SAC-TIC Acceuil</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"> -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/krilin.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
@@ -35,15 +34,25 @@
     <section id="first" class="section">
         <div class="container">
             <div class="columns is-desktop is-vcentered">
-                <div class="column">
+                <div class="column is-hidden-mobile">
                     <img class="image" src="assets/img/mockup.png" alt="SAC-TIC">
                 </div>
-                <div class="column">
+
+                <div id="firstseccol" class="column is-hidden-mobile">
                     <h1 class="title is-size-1 text-bleu">Ne soyez plus jamais surpris par les <span style="color: #F25F5C">coupures d’eau</span></h1>
                     <h2 class="subtitle is-size-3 has-text-white-bis">SAC-TIC vous permet d’être informés en cas de coupure ou de pertubations du réseau de distribution d’eau, de recevoir des astuces et conseils.</h2>
                     <a href="https://play.google.com/store/apps/details?id=com.solutis.sactic" target="_blank"><img class="image" src="assets/img/gplay.png" alt="Disponible sur Google play Store"></a>
                     <br><br>
                     <p class="is-size-7 has-text-white-bis">&darr; Défiler pour en savoir plus</p>
+                </div>
+                <!-- On mobile (Responsive helpers) -->
+                <div class="column is-hidden-tablet">
+                    <img class="image center" src="assets/img/logo188.png" alt="SAC-TIC">
+                </div>
+
+                <div id="firstseccolmob" class="column is-hidden-tablet">
+                    <h1 class="title is-size-1 text-bleu">Ne soyez plus jamais surpris par les <span style="color: #F25F5C">coupures d’eau</span></h1>
+                    <a href="https://play.google.com/store/apps/details?id=com.solutis.sactic" target="_blank"><img class="image center" src="assets/img/gplay.png" alt="Disponible sur Google play Store"></a>
                 </div>
             </div>
         </div>
